@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # numbers.sh
 # Logan Welsh
 # CPSC-298-02
