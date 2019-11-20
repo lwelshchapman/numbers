@@ -6,10 +6,10 @@
 # https://stackoverflow.com/questions/15867813/check-whether-one-number-equals-another-number-in-bash
 
 echo "Number: "
-read N
+read -r N
 I=1
 
-while [ $N -ne $((I-1)) ]
+while [ "$N" -ne $((I-1)) ]
 do
 	if [ $((I%2)) -eq 0 ]
 	then
